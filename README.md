@@ -39,4 +39,4 @@ Contributing
 If you'd like to contribute to this project, you can submit a pull request with your changes. Please follow the contribution guidelines.
 
 License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute this code as you see fit.
+This project is licensed under No License. Feel free to use, modify, and distribute this code as you see fit.
