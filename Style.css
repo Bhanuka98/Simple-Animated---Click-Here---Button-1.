@@ -1,0 +1,35 @@
+.click-here-btn {
+  position: relative;
+  background-color: #333;
+  color: white;
+  font-size: 50px;
+  padding: 50px 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.click-here-btn span {
+  display: inline-block;
+  transition: transform 0.3s ease-out;
+}
+
+.click-here-btn:hover span {
+  transform: translateY(-200%);
+}
+
+.click-here-btn svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill: red;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-out;
+}
+
+.click-here-btn:hover svg {
+  transform: translateY(0);
+}
